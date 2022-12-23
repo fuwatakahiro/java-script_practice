@@ -1,1 +1,2 @@
-alert("Hellow world")
+let hello = "good morning";
+alert(hello);
