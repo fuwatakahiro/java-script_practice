@@ -1,9 +1,8 @@
-let orange = 70;
-let apple = 100;
-if (orange < apple) {
-  alert("オレンジよりりんごの方が高いです");
-} else if (orange == apple) {
-  alert("オレンジとりんごは同じ値段です");
-} else {
-  alert("りんごよりオレンジの方が高いです");
+let max=100;
+let number=1;
+let count =0;
+while(number < max){
+  number*=2;
+  count ++;
 };
+alert("２をかけ続けて"+ max + "を超えるのに必要な回数は"  + count + "回です");
