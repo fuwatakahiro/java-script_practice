@@ -1,5 +1,4 @@
-let number = 0
-for(i =1;i<11;i++) {
- number += i
-};
-alert("一から十まで足した合計は"+ number + "です");
+var apple =100;
+alert(apple);
+var apple =110;
+alert(apple);
