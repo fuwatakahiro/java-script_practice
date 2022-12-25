@@ -1,16 +1,13 @@
-// 再代入ができる
-var apple =100;
-alert(apple);
-var apple =110;
-alert(apple);
+let alertString;
 
-let orange =120;
-console.log(orange);
- orange =120;
-console.log(orange);
+// 作成した関数を呼び出し、変数へ格納
+alertString = addString("WebCamp");
 
-// 再代入ができない
-// const grape =120;
-// console.log(grape);
-// grape =120;
-// console.log(grape);
+//変数の中身をアラートで表示する
+alert(alertString);
+
+// 作成した関数
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
